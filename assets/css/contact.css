@@ -1,0 +1,119 @@
+.contactus {padding-top: 127px;min-height: calc(100vh - 411px);}
+
+.contactusbg .global{
+	opacity: 0.09;
+}
+
+.globalmap{
+	opacity: 0.3;
+	top: 110px;
+	right: 0;
+	margin: 0 auto;
+	object-fit: contain;
+}
+
+.contactusbox {
+	padding: 120px 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.w100{
+	width: 100%;
+}
+
+.contactusbox h1{
+	font-weight: bold;
+}
+
+.contactusbox .titledisc{
+	max-width: 800px;
+}
+
+.contcatinfo li{
+	list-style: none;
+	margin: 0 0 10px;
+	font-size: 18px;
+}
+
+.contcatinfo li a{
+	color: #000;
+	text-decoration: none;
+}
+
+.contcatinfo {
+	margin: 20px 0 10px;
+}
+
+.contactsocial{
+	text-align: center;	
+}
+
+.contactsocial .social-links{
+	margin: 0 auto 50px;
+	justify-content: center;
+}
+
+.contactsocial li{
+	list-style: none;
+	margin: 0 20px;
+}
+
+.contactsocial li a{
+	color: var(--blue);
+	font-size: 35px;
+}
+
+.contcatinfo li a i{
+	color: var(--blue);
+}
+
+.contctusform{
+	width: 100%;
+}
+
+.formbox {
+	grid-template-columns: repeat(auto-fit, minmax(410px, 1fr));
+	grid-gap: 22px;
+}
+
+
+.contctusform .formgroupbox_right .form-group textarea{
+	display: block;
+	min-height: 196px;
+	resize: none;
+}
+
+.contctusform .formbox{
+	
+	display: grid;
+}
+
+
+
+/*responsivee*/
+
+@media(max-width:767px){
+	.form-group-submit{
+		grid-column: span 1;
+	}
+}
+
+
+@media(max-width:640px){
+	.formbox {
+		grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+		grid-gap: 10px;
+	}
+
+	.form-group input{
+		padding: 10px 10px!important;
+	}
+
+	.form-group {
+		margin-bottom: 10px;
+	}
+}

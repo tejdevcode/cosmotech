@@ -1,0 +1,3 @@
+service.php >>cosmotech2\wp-content\themes\cosmotech\templates
+style.css >>cosmotech2\wp-content\themes\cosmotech\
+images >>cosmotech2\wp-content\themes\cosmotech\assets\images
